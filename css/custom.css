@@ -1,0 +1,77 @@
+/* Add here all your CSS customizations */
+
+.row.header-panel-giving-back {
+    padding-bottom: 5px !important;
+    border-bottom: 1px solid #e3e3e3 !important;
+    overflow: hidden !important;
+}
+
+.header-panel-giving-back .b-sort-panel__inner{
+    padding:0px !important;
+    border:none !important;
+    float:right !important;
+    margin-top:15px !important;
+}
+
+.b-container-profile-page{
+	margin-top:50px;
+}
+
+.profile-info{
+	background:#fff;
+	padding:15px;
+}
+.profile-picture img{
+	width: 100%;
+}
+
+.short-bio-detail > ul > li{
+	margin-bottom:10px;
+}
+
+.f-point-leader-board{
+	font-size:1.38462em;
+	margin-bottom:15px;
+}
+
+.f-point-leader-board .c-default{
+	text-align: right;
+}
+.point-detail table tbody > tr > td{
+	border:none !important;
+}
+
+.point-detail table tbody > tr > td:first-child{
+	text-align:center;
+}
+.point-detail table tbody > tr > td:last-child{
+	text-align:right;
+}
+
+.how-to-post iframe{
+	width:100%;
+}
+
+.profile-detail{
+	margin-top:25px;
+	background:#fff;
+	padding:20px;
+}
+
+.b-profile-action li button{
+	margin-bottom:10px;
+	text-align:left;
+}
+
+.container-profile-action h3{
+	padding-bottom:15px;
+}
+
+.list-of-summary li{
+	margin-bottom:15px;
+}
+.desc img{
+    float:left;
+    width:50%;
+}
+
