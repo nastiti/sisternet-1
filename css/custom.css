@@ -1,5 +1,8 @@
 /* Add here all your CSS customizations */
 
+body p{
+	font-family: "interfaceregular", sans-serif;
+}
 .row.header-panel-giving-back {
     padding-bottom: 5px !important;
     border-bottom: 1px solid #e3e3e3 !important;
