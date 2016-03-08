@@ -100,6 +100,56 @@ body p{
 	line-height: 1.5em;
 }
 
+/* article custom css */
+.container.b-container-article-publish {
+    background:#fff;
+    margin-top:25px;
+    margin-bottom: 25px;
+}
+
+.article-tagging a{
+    font-size:0.65em !important;
+    background:#B5175E;
+    color:#fff;
+}
+
+.article-main-image img{
+	width: 100%;
+}
+
+.article-published{
+	padding-right:25px;
+}
+
+.article-sidebar{
+	margin-top:55px;
+}
+
+.article-author {
+    background: rgba(247,247,247,0.8);
+    padding:30px 20px;
+    text-align:center;
+    margin-top:25px;
+}
+
+.author-level
+{
+    font-size:1.15em;
+    margin-bottom:20px;    
+}
+
+.author-point{
+	margin-top:5px;
+	font-size:1.5em;
+	font-weight:600;
+	color:#ff2a6b;
+}
+
+.article-content-text{
+	margin-top:35px;
+}
+/* end */
+
 @media only screen and (max-width: 768px){
 	.profile-info .profile-picture,
 	.profile-info .short-bio,
