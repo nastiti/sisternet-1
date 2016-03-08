@@ -61,7 +61,7 @@ body p{
 	padding:20px;
 }
 
-.b-profile-action li button{
+.b-profile-action li a{
 	margin-bottom:10px;
 	text-align:left;
 	width:100%;
@@ -98,4 +98,46 @@ body p{
 
 .f-some-examples__item_description{
 	line-height: 1.5em;
+}
+
+@media only screen and (max-width: 768px){
+	.profile-info .profile-picture,
+	.profile-info .short-bio,
+	.profile-info .point-detail,
+	.profile-info .how-to-post{
+		padding-bottom:15px;
+	}
+	.profile-menu{
+		margin-bottom:25px;
+	}
+	.profile-menu button{
+		background: #ff2a6b;
+		color: #fff;
+		width:100%;
+		max-width:360px;
+	}
+
+	.b-profile-action{
+		background:none;
+		border:none;
+		-webkit-box-shadow:none;
+		box-shadow:none;
+		-moz-box-shadow:none;
+		width:100%;
+    	background: #ff2a6b;
+    	text-align:center;
+
+	}
+	.b-profile-action li{
+		display: block;
+		margin-bottom:10px;
+	}
+	.b-profile-action li a{
+		margin:0px auto;
+		color: #fff;
+		text-align: left;
+		width:100%;
+		background: none;
+		border:none;
+	}
 }

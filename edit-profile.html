@@ -35,9 +35,14 @@
   <link type="text/css" rel='stylesheet' href="js/fancybox/jquery.fancybox.css">
   <!-- End Fancybox -->
 
+<!-- Fonts -->
   <link type="text/css" rel='stylesheet' href="fonts/fonts.css">
+  <link type="text/css" rel='stylesheet' href="fonts/interface/stylesheet.css">
+  <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
+  <!-- End Fonts -->
 
   <link type="text/css" data-themecolor="default" rel='stylesheet' href="css/main-default.css">
   <link type="text/css" rel='stylesheet' href="css/custom.css">
@@ -64,17 +69,17 @@
         </div>
         <div class="b-top-nav-show-slide f-top-nav-show-slide b-right j-top-nav-show-slide"><i class="fa fa-align-justify"></i></div>
         <nav class="b-top-nav f-top-nav b-right j-top-nav">
-            <ul class="b-top-nav__1level_wrap">
+          <ul class="b-top-nav__1level_wrap">
               <li class="b-top-nav__1level f-top-nav__1level is-active-top-nav__1level f-primary-b"><a href="index.html"><i class="fa fa-home b-menu-1level-ico"></i>Home </a>
               </li>
               <li class="b-top-nav__1level f-top-nav__1level f-primary-b">
                   <a href="share.html"><i class="fa fa-folder-open b-menu-1level-ico"></i>Share</a>
               </li>
               <li class="b-top-nav__1level f-top-nav__1level f-primary-b">
-                  <a href="#"><i class="fa fa-picture-o b-menu-1level-ico"></i>Care</a>
+                  <a href="care.html"><i class="fa fa-picture-o b-menu-1level-ico"></i>Care</a>
               </li>
               <li class="b-top-nav__1level f-top-nav__1level f-primary-b">
-                  <a href="#"><i class="fa fa-code b-menu-1level-ico"></i>Inspire </a>
+                  <a href="inspire.html"><i class="fa fa-code b-menu-1level-ico"></i>Inspire </a>
               </li>
               <li class="b-top-nav__1level f-top-nav__1level f-primary-b">
                 <a href="#"><i class="fa fa-code b-menu-1level-ico"></i>Login | Register <span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span>
@@ -87,7 +92,7 @@
                   </ul>
                 </div>
               </li>
-            </ul>
+          </ul>
         </nav>
       </div>
     </div>
@@ -178,51 +183,68 @@
         </section>
         <section class="profile-detail row">
           <div class="col-md-3">
-            <ul class="list-unstyled b-profile-action">
-              <li><button class="button-sm button-raspberries"><i class="fa fa-pencil"></i>&nbsp;Posting Artikel</button></li>
-              <li><button class="button-sm button-raspberries"><i class="fa fa-file-text"></i>&nbsp;Ringkasan</button></li>
-              <li><button class="button-sm button-raspberries"><i class="fa fa-users"></i>&nbsp;Refer A Friend</button></li>
-              <li><button class="button-sm button-raspberries"><i class="fa fa-trophy"></i>&nbsp;Klaim Point</button></li>
-              <li><button class="button-sm button-raspberries"><i class="fa fa-user"></i>&nbsp;Ubah Profil</button></li>
-              <li><button class="button-sm button-raspberries"><i class="fa fa-lock"></i>&nbsp;Ubah Password</button></li>
+            <ul class="list-unstyled b-profile-action visible-md">
+              <li><a href="add-giving-back.html" class="button-sm button-raspberries"><i class="fa fa-pencil"></i>&nbsp;Giving Back</a></li>
+              <li><a class="button-sm button-raspberries"><i class="fa fa-file-text"></i>&nbsp;Ringkasan</a></li>
+              <li><a class="button-sm button-raspberries"><i class="fa fa-users"></i>&nbsp;Refer A Friend</a></li>
+              <li><a class="button-sm button-raspberries"><i class="fa fa-trophy"></i>&nbsp;Klaim Point</a></li>
+              <li><a href="edit-profile.html" class="button-sm button-raspberries"><i class="fa fa-user"></i>&nbsp;Ubah Profil</a></li>
             </ul>
+            <div class="dropdown visible-xs profile-menu">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Profile Menu
+              <span class="caret"></span>
+            </button>
+              <ul class="dropdown-menu b-profile-action" aria-labelledby="dropdownMenu1">
+              <li><a href="add-giving-back.html" class="button-sm button-raspberries"><i class="fa fa-pencil"></i>&nbsp;Giving Back</a></li>
+              <li><a class="button-sm button-raspberries"><i class="fa fa-file-text"></i>&nbsp;Ringkasan</a></li>
+              <li><a class="button-sm button-raspberries"><i class="fa fa-users"></i>&nbsp;Refer A Friend</a></li>
+              <li><a class="button-sm button-raspberries"><i class="fa fa-trophy"></i>&nbsp;Klaim Point</a></li>
+              <li><a href="edit-profile.html" class="button-sm button-raspberries"><i class="fa fa-user"></i>&nbsp;Ubah Profil</a></li>
+            </ul>
+            </div>
           </div>
           <div class="col-md-5 container-profile-action">
-            <h3 class="f-legacy-h3 f-primary-b"><i class="fa fa-file-text"></i>&nbsp;Ringkasan</h3>
-            <ul class="list-unstyled list-of-summary">
-              <li class="col-xs-12">
-                <div class="b-google-map__info-window-address-icon f-center pull-left">
-                    <i class="fa fa-thumbs-up"></i>
+            <h3 class="f-legacy-h3 f-primary-b"><i class="fa fa-user"></i>&nbsp;Edit Profile</h3>
+            <p class="b-some-examples__item_description">Silahkan Isi Form Di bawah untuk menambahkan rencana Giving Back</p>
+            <div class="b-form-row">
+                <label class="b-form-horizontal__label" for="create_account_confirm">Nama Lengkap</label>
+                <div class="b-form-horizontal__input">
+                    <input type="text" id="topik-givingback" class="form-control">
                 </div>
-                <div>
-                    <div class="desc">
-                      <p><a href="#">Melanie</a> menyukai artikel <a href="#">The cows were having lunch</a></p>
-                      <img src="img/61311537.jpg" />
-                    </div>
+            </div>
+            <div class="b-form-row">
+                <label class="b-form-horizontal__label" for="create_account_confirm">Tanggal Lahir</label>
+                <div class="b-form-horizontal__input b-form-control__icon-wrap">
+                  <input type="text" class="form-control datepicker hasDatepicker" id="dp1457451775139">
+                  <i class="fa fa-calendar b-form-control__icon f-form-control__icon"></i>
                 </div>
-              </li>
-              <li class="col-xs-12">
-                <div class="b-google-map__info-window-address-icon f-center pull-left">
-                    <i class="fa fa-thumbs-up"></i>
+            </div>
+            <div class="b-form-row">
+                <label class="b-form-horizontal__label" for="create_account_confirm">No Handphone</label>
+                <div class="b-form-horizontal__input b-form-control__icon-wrap">
+                    <i class="fa fa-phone b-form-control__icon f-form-control__icon"></i>
+                    <input type="text" id="profile-handphone" class="form-control">
                 </div>
-                <div>
-                    <div class="desc">
-                      <p><a href="#">Melanie</a> baru saja merekomendasikan teman baru nya <a href="#">Susliwati</a> untuk bergabung di Sisternet</p>
-                    </div>
+            </div>
+            <div class="b-form-row">
+                <label class="b-form-horizontal__label" for="create_account_confirm">Interest</label>
+                <div class="b-form-horizontal__input">
+                    <input type="text" id="profile-interest" class="form-control">
                 </div>
-              </li>
-              <li class="col-xs-12">
-                <div class="b-google-map__info-window-address-icon f-center pull-left">
-                    <i class="fa fa-thumbs-up"></i>
+            </div>
+            <div class="b-form-row">
+                <label class="b-form-horizontal__label" for="create_account_confirm">Personal Project</label>
+                <div class="b-form-horizontal__input">
+                    <textarea name="" id="profile-project" cols="30" rows="10" class="form-control"></textarea>
                 </div>
-                <div>
-                    <div class="desc">
-                      <p><a href="#">Melanie</a> menyukai artikel <a href="#">The cows were having lunch</a></p>
-                      <img src="img/61311537.jpg" />
-                    </div>
-                </div>
-              </li>
-            </ul>
+            </div>
+            <div class="b-form-row">
+                          <div class="b-form-horizontal__label"></div>
+                          <div class="b-form-horizontal__input">
+                              <a href="#" class="b-btn f-btn b-btn-md b-btn-default f-primary-b b-btn__w100">Simpan Perubahan</a>
+                          </div>
+                      </div>
           </div>
           <div class="col-md-4">
             

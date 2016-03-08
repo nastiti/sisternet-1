@@ -104,7 +104,7 @@
 <div class="l-main-container">
     <div class="container b-container-profile-page">
         <section class="profile-info row">
-          <div class="col-md-2 profile-picture">
+          <div class="col-md-2 profile-picture ">
             <img data-retina="" src="img/profile-pic.jpg" />
           </div>
           <div class="col-md-3 short-bio">
@@ -183,13 +183,26 @@
         </section>
         <section class="profile-detail row">
           <div class="col-md-3">
-            <ul class="list-unstyled b-profile-action">
-              <li><button class="button-sm button-raspberries"><i class="fa fa-pencil"></i>&nbsp;Giving Back</button></li>
-              <li><button class="button-sm button-raspberries"><i class="fa fa-file-text"></i>&nbsp;Ringkasan</button></li>
-              <li><button class="button-sm button-raspberries"><i class="fa fa-users"></i>&nbsp;Refer A Friend</button></li>
-              <li><button class="button-sm button-raspberries"><i class="fa fa-trophy"></i>&nbsp;Klaim Point</button></li>
-              <li><button class="button-sm button-raspberries"><i class="fa fa-user"></i>&nbsp;Ubah Profil</button></li>
+            <ul class="list-unstyled b-profile-action visible-md">
+              <li><a href="add-giving-back.html" class="button-sm button-raspberries"><i class="fa fa-pencil"></i>&nbsp;Giving Back</a></li>
+              <li><a class="button-sm button-raspberries"><i class="fa fa-file-text"></i>&nbsp;Ringkasan</a></li>
+              <li><a class="button-sm button-raspberries"><i class="fa fa-users"></i>&nbsp;Refer A Friend</a></li>
+              <li><a class="button-sm button-raspberries"><i class="fa fa-trophy"></i>&nbsp;Klaim Point</a></li>
+              <li><a href="edit-profile.html" class="button-sm button-raspberries"><i class="fa fa-user"></i>&nbsp;Ubah Profil</a></li>
             </ul>
+            <div class="dropdown visible-xs profile-menu">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Profile Menu
+              <span class="caret"></span>
+            </button>
+              <ul class="dropdown-menu b-profile-action" aria-labelledby="dropdownMenu1">
+              <li><a href="add-giving-back.html" class="button-sm button-raspberries"><i class="fa fa-pencil"></i>&nbsp;Giving Back</a></li>
+              <li><a class="button-sm button-raspberries"><i class="fa fa-file-text"></i>&nbsp;Ringkasan</a></li>
+              <li><a class="button-sm button-raspberries"><i class="fa fa-users"></i>&nbsp;Refer A Friend</a></li>
+              <li><a class="button-sm button-raspberries"><i class="fa fa-trophy"></i>&nbsp;Klaim Point</a></li>
+              <li><a href="edit-profile.html" class="button-sm button-raspberries"><i class="fa fa-user"></i>&nbsp;Ubah Profil</a></li>
+            </ul>
+            </div>
           </div>
           <div class="col-md-5 container-profile-action">
             <h3 class="f-legacy-h3 f-primary-b"><i class="fa fa-file-text"></i>&nbsp;Ringkasan</h3>
