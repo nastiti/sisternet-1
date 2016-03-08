@@ -44,7 +44,9 @@ jQuery(function ($) {
 
     $bxsliderCarousel2 = $('.j-carousel-secondary').bxSlider($.extend({}, carouselSettings, {
         slideMargin: 28,
-        slideWidth: 370
+        slideWidth: 370,
+        minSlides: 2,
+  maxSlides: 3
     }));
 
     $bxsliderCarousel3 = $('.j-carousel-sidebar').bxSlider($.extend({}, carouselSettings, {
@@ -193,6 +195,29 @@ jQuery(function ($) {
                 $carou.roundabout('animateToNextChild');
             }, 50);
         }
+
+        /*-----------------------------------------
+        COUNTDOWN TIMER INIT
+        ------------------------------------------*/
+        function countdownInit(){
+            var countdown = $('.countdown');
+
+            var countdownFormat = function( format ){
+
+                if ( countdown.hasClass('countdown-style1') ) {
+                    return 'ODHMS'
+                } else if( countdown.hasClass('countdown-style2') ){
+                    return 'DHMS'
+                };
+            };
+            $('.countdown-timer').countdown({
+                until: new Date(2016, 3 - 1, 29),
+                format: countdownFormat()
+            });
+        };
+        if ( $('.countdown-timer').length ) {
+            countdownInit();
+        };
 
     }
 });

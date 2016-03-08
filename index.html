@@ -35,15 +35,23 @@
   <link type="text/css" rel='stylesheet' href="js/fancybox/jquery.fancybox.css">
   <!-- End Fancybox -->
 
+  <!-- Fonts -->
   <link type="text/css" rel='stylesheet' href="fonts/fonts.css">
+  <link type="text/css" rel='stylesheet' href="fonts/interface/stylesheet.css">
+  <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
+  <!-- End Fonts -->
+
 
   <link type="text/css" data-themecolor="default" rel='stylesheet' href="css/main-default.css">
 
   <link type="text/css" rel='stylesheet' href="js/rs-plugin/css/settings.css">
   <link type="text/css" rel='stylesheet' href="js/rs-plugin/css/settings-custom.css">
   <link type="text/css" rel='stylesheet' href="js/rs-plugin/videojs/video-js.css">
+  
+  <link type="text/css" rel='stylesheet' href="css/carousel.css">
 </head>
 <body>
   <div class="mask-l" style="background-color: #fff; width: 100%; height: 100%; position: fixed; top: 0; left:0; z-index: 9999999;"></div> <!--removed by integration-->
@@ -63,26 +71,26 @@
         </div>
         <div class="b-top-nav-show-slide f-top-nav-show-slide b-right j-top-nav-show-slide"><i class="fa fa-align-justify"></i></div>
         <nav class="b-top-nav f-top-nav b-right j-top-nav">
-            <ul class="b-top-nav__1level_wrap">
-              <li class="b-top-nav__1level f-top-nav__1level is-active-top-nav__1level f-primary-b"><a href="homepage-1-index.html"><i class="fa fa-home b-menu-1level-ico"></i>Home </a>
+          <ul class="b-top-nav__1level_wrap">
+              <li class="b-top-nav__1level f-top-nav__1level is-active-top-nav__1level f-primary-b"><a href="index.html"><i class="fa fa-home b-menu-1level-ico"></i>Home </a>
               </li>
               <li class="b-top-nav__1level f-top-nav__1level f-primary-b">
-                  <a href="page_header_1.html"><i class="fa fa-folder-open b-menu-1level-ico"></i>Share</a>
+                  <a href="share.html"><i class="fa fa-folder-open b-menu-1level-ico"></i>Share</a>
               </li>
               <li class="b-top-nav__1level f-top-nav__1level f-primary-b">
-                  <a href="portfolio_our_portfolio_1_colums.html"><i class="fa fa-picture-o b-menu-1level-ico"></i>Care</a>
+                  <a href="care.html"><i class="fa fa-picture-o b-menu-1level-ico"></i>Care</a>
               </li>
               <li class="b-top-nav__1level f-top-nav__1level f-primary-b">
-                  <a href="our_blog_1_columns.html"><i class="fa fa-code b-menu-1level-ico"></i>Inspire </a>
+                  <a href="inspire.html"><i class="fa fa-code b-menu-1level-ico"></i>Inspire </a>
               </li>
               <li class="b-top-nav__1level f-top-nav__1level f-primary-b">
-                <a href="our_blog_1_columns.html"><i class="fa fa-code b-menu-1level-ico"></i>Login | Register <span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span>
+                <a href="#"><i class="fa fa-code b-menu-1level-ico"></i>Login | Register <span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span>
                 </a>
                 <div class="b-top-nav__dropdomn">
                   <ul class="b-top-nav__2level_wrap">
                     <li class="b-top-nav__2level_title f-top-nav__2level_title">Gabung Sisternet</li>
-                    <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="portfolio_our_portfolio_mansonry_layout.html"><i class="fa fa-angle-right"></i>Login</a></li>
-                    <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="portfolio_our_portfolio_mansonry_layout.html"><i class="fa fa-angle-right"></i>Register</a></li>
+                    <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="login.html"><i class="fa fa-angle-right"></i>Login</a></li>
+                    <li class="b-top-nav__2level f-top-nav__2level f-primary"><a href="register.html"><i class="fa fa-angle-right"></i>Register</a></li>
                   </ul>
                 </div>
               </li>
@@ -99,18 +107,17 @@
           <li data-transition="slotfade-vertical" data-slotamount="7" >
             <div class="tp-bannertimer"></div>
               <img data-retina src="img/slider/imageslider-1.jpg">
-              <div class="caption lft caption-left"  data-x="left" data-y="150" data-hoffset="60" data-speed="700" data-start="2000">
-                <div class="b-slider-lg-info-l__item-title f-slider-lg-info-l__item-title b-slider-lg-info-l__item-title-tertiary b-bg-slider-lg-info-l__item-title">
-                  <h2 class="f-primary-l">Sisternet</h2>
-                  <h1 class="f-primary-b">We share</h1>
+              <div class="caption"  data-x="center" data-y="150" data-speed="700" data-start="2000">
+                <div class="b-video-slider f-centered">
+                  <div class="f-video-slider-title f-uppercase f-primary-l">Sisternet</div>
+                  <div class="f-video-slider-title-big f-uppercase f-primary-b">Mari bergabung!</div>
+                  <div class="buttonCenter">
+                      <a class="btn-video-sl f-uppercase f-primary-b" data-scroll-nav="1">Login</a>
+                      <div class="btn-video-sl-stroke f-uppercase f-primary-b">Register</div>
+                  </div>
                 </div>
-              </div>
-              <div class="caption lfl caption-left"  data-x="left" data-y="270" data-speed="1000" data-start="2600">
-                <div class="b-slider-lg-info-l__item-link f-slider-lg-info-l__item-link">
-                  <a href="#" class="b-slider-lg-info-l__item-anchor f-slider-lg-info-l__item-anchor f-primary-b">baca selengkapnya.</a>
-                  <span class="b-slider-lg-info-l__item-link-after"><i class="fa fa-chevron-right"></i></span>
-                </div>
-              </div>
+              </div> 
+              
           </li>
           <li data-transition="slotfade-vertical" data-slotamount="7" >
             <div class="tp-bannertimer"></div>
@@ -118,7 +125,7 @@
             <div class="caption lft caption-left"  data-x="left" data-y="150" data-hoffset="60" data-speed="700" data-start="2000">
               <div class="b-slider-lg-info-l__item-title f-slider-lg-info-l__item-title b-slider-lg-info-l__item-title-tertiary b-bg-slider-lg-info-l__item-title">
                 <h2 class="f-primary-l">Sisternet</h2>
-                <h1 class="f-primary-b">We care</h1>
+                <h1 class="f-primary-b">We share</h1>
               </div>
             </div>
             <div class="caption lfl caption-left"  data-x="left" data-y="270" data-speed="1000" data-start="2600">
@@ -134,7 +141,7 @@
               <div class="caption lft caption-left"  data-x="left" data-y="150" data-hoffset="60" data-speed="700" data-start="2000">
               <div class="b-slider-lg-info-l__item-title f-slider-lg-info-l__item-title b-slider-lg-info-l__item-title-tertiary b-bg-slider-lg-info-l__item-title">
                 <h2 class="f-primary-l">Sisternet</h2>
-                <h1 class="f-primary-b">We inspire</h1>
+                <h1 class="f-primary-b">We care</h1>
               </div>
             </div>
             <div class="caption lfl caption-left"  data-x="left" data-y="270" data-speed="1000" data-start="2600">
@@ -145,30 +152,110 @@
             </div>
           </li>
           <li data-transition="slotfade-vertical" data-slotamount="7" >
-                    <div class="tp-bannertimer"></div>
-                    <img data-retina src="img/slider/imageslider.jpg">
-                    <div class="caption lft caption-left"  data-x="left" data-y="150" data-hoffset="60" data-speed="700" data-start="2000">
-                        <div class="b-slider-lg-info-l__item-title f-slider-lg-info-l__item-title b-slider-lg-info-l__item-title-tertiary b-bg-slider-lg-info-l__item-title">
-                            <h2 class="f-primary-l">Sisternet</h2>
-                            <h1 class="f-primary-b">Mari bergabung!</h1>
-                        </div>
-                    </div>
-                    <div class="caption lfl caption-left"  data-x="left" data-y="270" data-speed="1000" data-start="2600">
-                        <div class="b-slider-lg-info-button__item-anchor"> 
-                            <a href="#" class="btn-video-sl f-uppercase f-primary-b">Login</a>
-                        <a href="#" class="btn-video-sl-stroke f-uppercase f-primary-b">Register</a>
-                        </div>
-                    </div>
+            <div class="tp-bannertimer"></div>
+              <img data-retina src="img/slider/imageslider.jpg">
+              <div class="caption lft caption-left"  data-x="left" data-y="150" data-hoffset="60" data-speed="700" data-start="2000">
+                <div class="b-slider-lg-info-l__item-title f-slider-lg-info-l__item-title b-slider-lg-info-l__item-title-tertiary b-bg-slider-lg-info-l__item-title">
+                  <h2 class="f-primary-l">Sisternet</h2>
+                  <h1 class="f-primary-b">We inspire</h1>
+                </div>
+              </div>
+              <div class="caption lfl caption-left"  data-x="left" data-y="270" data-speed="1000" data-start="2600">
+                <div class="b-slider-lg-info-l__item-link f-slider-lg-info-l__item-link">
+                  <a href="#" class="b-slider-lg-info-l__item-anchor f-slider-lg-info-l__item-anchor f-primary-b">baca selengkapnya.</a>
+                  <span class="b-slider-lg-info-l__item-link-after"><i class="fa fa-chevron-right"></i></span>
+                </div>
+              </div>        
+            </div>
           </li>
         </ul>
       </div>
     </div>
 
+    <section class="b-infoblock f-center" data-scroll-index="1">
+            <div class="container">
+                <h2 class="f-primary-b"><strong>Sisternet</strong></h2>
+                <p class="b-desc-section f-desc-section f-secondary-l f-small">Sisternet adalah rumah digital bagi wanita Indonesia untuk berbagi, peduli dan menginspirasi.</p>
+                <div class="b-hr-stars f-hr-stars container">
+                  <div class="b-hr-stars__group">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+                <div class="b-some-examples f-some-examples b-some-examples-secondary f-some-examples-secondary f-secondary row">
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="b-some-examples__item b-bg-transparent f-some-examples__item">
+                            <div class="b-some-examples__item_img view view-sixth">
+                                <a href="#"><img class="j-data-element" data-animate="fadeInDown" data-retina src="img/homepage/example_4.jpg" alt=""/></a>
+                                <div class="b-item-hover-action f-center mask">
+                                    <div class="b-item-hover-action__inner">
+                                        <div class="b-item-hover-action__inner-btn_group">
+                                            <a href="blog_detail_right_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="b-some-examples__item_info">
+                                <div class="b-some-examples__item_info_level b-some-examples__item_name f-some-examples__item_name f-primary-b textCenter"><a href="#">Share</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="b-some-examples__item b-bg-transparent f-some-examples__item">
+                            <div class="b-some-examples__item_img view view-sixth">
+                                <a href="#"><img class="j-data-element" data-animate="fadeInDown" data-retina src="img/homepage/example_5.jpg" alt=""/></a>
+                                <div class="b-item-hover-action f-center mask">
+                                    <div class="b-item-hover-action__inner">
+                                        <div class="b-item-hover-action__inner-btn_group">
+                                            <a href="blog_detail_right_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="b-some-examples__item_info">
+                                <div class="b-some-examples__item_info_level b-some-examples__item_name f-some-examples__item_name f-primary-b textCenter"><a href="#">Care</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="b-some-examples__item b-bg-transparent f-some-examples__item">
+                            <div class="b-some-examples__item_img view view-sixth">
+                                <a href="#"><img class="j-data-element" data-animate="fadeInDown" data-retina src="img/homepage/example_6.jpg" alt=""/></a>
+                                <div class="b-item-hover-action f-center mask">
+                                    <div class="b-item-hover-action__inner">
+                                        <div class="b-item-hover-action__inner-btn_group">
+                                            <a href="blog_detail_right_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="b-some-examples__item_info">
+                                <div class="b-some-examples__item_info_level b-some-examples__item_name f-some-examples__item_name f-primary-b textCenter"><a href="#">Inspire</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
     <section class="b-infoblock">
       <div class="container">
+        <div class="textCenter">
+          <h2 class="f-primary-b"><strong>Sisternet</strong></h2>
+                <p class="b-desc-section f-desc-section f-secondary-l f-small">Sisternet adalah rumah digital bagi wanita Indonesia untuk berbagi, peduli dan menginspirasi.</p>
+                <div class="b-hr-stars f-hr-stars container">
+                  <div class="b-hr-stars__group">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                </div>
+        </div>
+        
         <div class="b-carousel-secondary f-carousel-secondary b-some-examples-tertiary f-some-examples-tertiary b-carousel-reset">
-          <div class="b-carousel-title f-carousel-title f-primary-b">Upcoming Events</div>
-            <div class="b-some-examples f-some-examples j-carousel-secondary">
+          <div class="b-carousel-title f-carousel-title f-primary-b"></div>
+            <div class="b-some-examples f-some-examples ocDukung">
               <div class="b-some-examples__item f-some-examples__item">
                 <div class="b-some-examples__item_img view view-sixth">
                   <img data-retina="" src="img/homepage/event-1e.jpg" alt="">
@@ -339,7 +426,7 @@
       </div>
     </section>
 
-    <section class="b-bg-block f-bg-block person b-bg-block-girl parallax-section-bg" data-type="background" data-speed="300">
+    <!-- <section class="b-bg-block f-bg-block person b-bg-block-girl parallax-section-bg" data-type="background" data-speed="300">
       <div class="container f-center b-bg-block__person">
         <div class="row clearfix">
             <div class="col-sm-2 col-xs-12"></div>
@@ -359,12 +446,13 @@
         <p class="name">Sisternet</p>
         <p class="quote">“Sisternet adalah rumah digital bagi wanita Indonesia untuk berbagi, peduli dan menginspirasi."</p>
       </div>
-    </section>
+    </section> -->
 
-    <section class="b-infoblock">
+    <section class="b-infoblock b-diagonal-line-bg-light">
       <div class="container">
         <div class="b-carousel-secondary f-carousel-secondary b-some-examples-tertiary f-some-examples-tertiary b-carousel-reset">
           <div class="b-carousel-title f-carousel-title f-primary-b">Trip Sisternet</div>
+
           <div class="b-some-examples f-some-examples j-carousel-secondary">
             <div class="b-some-examples__item f-some-examples__item">
               <div class="b-some-examples__item_img view view-sixth">
@@ -544,298 +632,294 @@
         </div>
       </div>
     </section>
-    
 
-<section class="b-infoblock f-center">
-  <div class="container">
-    <h2 class="f-primary-l">Let's Go to<strong class="f-primary-b"> Class</strong></h2>
+    <section class="b-infoblock f-center">
+      <div class="container">
+        <h2 class="f-primary-l">Let's Go to<strong class="f-primary-b"> Class</strong></h2>
 
-    <p class="b-infoblock-description f-desc-section f-primary-l f-small">Sisternet menyediakan berbagai kelas menarik untuk pengembangan dirimu. Ikut kelasnya dengan menukarkan poinmu.</p>
+        <p class="b-infoblock-description f-desc-section f-primary-l f-small">Sisternet menyediakan berbagai kelas menarik untuk pengembangan dirimu. Ikut kelasnya dengan menukarkan poinmu.</p>
 
-    <div class="b-some-examples f-some-examples f-primary row">
-      <div class="col-sm-4 col-xs-12">
-        <div class="b-some-examples__item f-some-examples__item">
-          <div class="b-some-examples__item_img view view-sixth">
-    <a href="#"><img class="j-data-element" data-animate="fadeInDown" data-retina src="img/homepage/kelas-1.jpg" alt=""/></a>
-    <div class="b-item-hover-action f-center mask">
-        <div class="b-item-hover-action__inner">
-            <div class="b-item-hover-action__inner-btn_group">
-                <a href="education_detail.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-            </div>
-        </div>
-    </div>
-</div>
-          <div class="b-some-examples__item_info">
-            <div class="b-some-examples__item_info_level b-some-examples__item_name f-some-examples__item_name"><a href="education_detail.html">Sisters Melek Internet</a></div>
-            <div class="b-some-examples__item_info_level b-some-examples__item_double_info f-some-examples__item_double_info">
-              <div class="b-right">Duration: 3 Hours</div>
-              <div class="b-remaining">On: March 26, 2016</div>
-            </div>
-            <div class="b-some-examples__item_info_level b-some-examples__item_description f-some-examples__item_description">
-              Sebagai seorang perempuan yang hidup di era digital, kita harus melek internet. Sisternet menghadirkan Aulia Halimatussadiah dari NulisBuku.com dan Nabilah Alsagoff dari Doku khusus untuk berbagi denganmu. Jangan sampai ketinggalan kelasnya ya!
+        <div class="b-some-examples f-some-examples f-primary row">
+          <div class="col-sm-4 col-xs-12">
+            <div class="b-some-examples__item f-some-examples__item">
+              <div class="b-some-examples__item_img view view-sixth">
+                <a href="#"><img class="j-data-element" data-animate="fadeInDown" data-retina src="img/homepage/kelas-1.jpg" alt=""/></a>
+                <div class="b-item-hover-action f-center mask">
+                    <div class="b-item-hover-action__inner">
+                        <div class="b-item-hover-action__inner-btn_group">
+                            <a href="education_detail.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="b-some-examples__item_info">
+                <div class="b-some-examples__item_info_level b-some-examples__item_name f-some-examples__item_name"><a href="education_detail.html">Sisters Melek Internet</a></div>
+                <div class="b-some-examples__item_info_level b-some-examples__item_double_info f-some-examples__item_double_info">
+                  <div class="b-right">Duration: 3 Hours</div>
+                  <div class="b-remaining">On: March 26, 2016</div>
+                </div>
+                <div class="b-some-examples__item_info_level b-some-examples__item_description f-some-examples__item_description">
+                  Sebagai seorang perempuan yang hidup di era digital, kita harus melek internet. Sisternet menghadirkan Aulia Halimatussadiah dari NulisBuku.com dan Nabilah Alsagoff dari Doku khusus untuk berbagi denganmu. Jangan sampai ketinggalan kelasnya ya!
+                </div>
+              </div>
+              <div class="b-some-examples__item_action">
+                <div class="b-right">
+                  <a href="education_detail.html" class="b-btn f-btn b-btn-sm f-btn-sm b-btn-default f-primary-b">DAFTAR KELAS</a>
+                </div>
+                <div class="b-remaining b-some-examples__item_total f-some-examples__item_total">
+                     <a href="#"><i class="fa fa-heart"></i></a>
+                    <a href="#"><i class="fa fa-share-alt"></i></a>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="b-some-examples__item_action">
-            <div class="b-right">
-              <a href="education_detail.html" class="b-btn f-btn b-btn-sm f-btn-sm b-btn-default f-primary-b">DAFTAR KELAS</a>
+          <div class="col-sm-4 col-xs-12">
+            <div class="b-some-examples__item f-some-examples__item">
+              <div class="b-some-examples__item_img view view-sixth">
+                <a href="#"><img class="j-data-element" data-animate="fadeInDown" data-retina src="img/homepage/kelas-2.jpg" alt=""/></a>
+                <div class="b-item-hover-action f-center mask">
+                    <div class="b-item-hover-action__inner">
+                        <div class="b-item-hover-action__inner-btn_group">
+                            <a href="education_detail.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="b-some-examples__item_info">
+                <div class="b-some-examples__item_info_level b-some-examples__item_name f-some-examples__item_name"><a href="education_detail.html">Travel Writer 1.0.</a></div>
+                <div class="b-some-examples__item_info_level b-some-examples__item_double_info f-some-examples__item_double_info">
+                  <div class="b-right">Duration: 3 hours</div>
+                  <div class="b-remaining">On: March 26, 2016</div>
+                </div>
+                <div class="b-some-examples__item_info_level b-some-examples__item_description f-some-examples__item_description">
+                  Kamu ingin bisa ngetrip gratis ke mana saja? Belajar dari tiga mentor di Travel Writer 1.0. berikut. Ada Amalla Vesta dari SwankyTraveler dan LiburanLokal, Marischka Prudence dan Satya Winnie yang akan memberimu tips menjadi travel writer yang laris diundang ngetrip gratis.
+                </div>
+              </div>
+              <div class="b-some-examples__item_action">
+                <div class="b-right">
+                  <a href="education_detail.html" class="b-btn f-btn b-btn-sm f-btn-sm b-btn-default f-primary-b">DAFTAR KELAS</a>
+                </div>
+                <div class="b-remaining b-some-examples__item_total f-some-examples__item_total">
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                    <a href="#"><i class="fa fa-share-alt"></i></a>
+                </div>
+              </div>
             </div>
-            <div class="b-remaining b-some-examples__item_total f-some-examples__item_total">
-                 <a href="#"><i class="fa fa-heart"></i></a>
-                <a href="#"><i class="fa fa-share-alt"></i></a>
+          </div>
+          <div class="col-sm-4 col-xs-12">
+            <div class="b-some-examples__item f-some-examples__item">
+              <div class="b-some-examples__item_img view view-sixth">
+                <a href="#"><img class="j-data-element" data-animate="fadeInDown" data-retina src="img/homepage/kelas-3.jpg" alt=""/></a>
+                <div class="b-item-hover-action f-center mask">
+                    <div class="b-item-hover-action__inner">
+                        <div class="b-item-hover-action__inner-btn_group">
+                            <a href="education_detail.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="b-some-examples__item_info">
+                <div class="b-some-examples__item_info_level b-some-examples__item_name f-some-examples__item_name"><a href="education_detail.html">The Good Food Blogger</a></div>
+                <div class="b-some-examples__item_info_level b-some-examples__item_double_info f-some-examples__item_double_info">
+                  <div class="b-right">Duration: 3 hours</div>
+                  <div class="b-remaining">On: March 26, 2016</div>
+                </div>
+                <div class="b-some-examples__item_info_level b-some-examples__item_description f-some-examples__item_description">
+                  Suka kelaparan melihat food blogger mengupload foto-foto makanan, Sisters? Ini saatnya kamu belajar dari pakar fotografi makanan. Ada Stanilaus Hans dari Eat and Treats dan Mullie Marlina dari MyFunFoodDiary yang akan mengajarkan kamu tips foto makanan!
+                </div>
+              </div>
+              <div class="b-some-examples__item_action">
+                <div class="b-right">
+                  <a href="education_detail.html" class="b-btn f-btn b-btn-sm f-btn-sm b-btn-default f-primary-b">DAFTAR KELAS</a>
+                </div>
+                <div class="b-remaining b-some-examples__item_total f-some-examples__item_total">
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                    <a href="#"><i class="fa fa-share-alt"></i></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-sm-4 col-xs-12">
-        <div class="b-some-examples__item f-some-examples__item">
-          <div class="b-some-examples__item_img view view-sixth">
-    <a href="#"><img class="j-data-element" data-animate="fadeInDown" data-retina src="img/homepage/kelas-2.jpg" alt=""/></a>
-    <div class="b-item-hover-action f-center mask">
-        <div class="b-item-hover-action__inner">
-            <div class="b-item-hover-action__inner-btn_group">
-                <a href="education_detail.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-            </div>
-        </div>
-    </div>
-</div>
-          <div class="b-some-examples__item_info">
-            <div class="b-some-examples__item_info_level b-some-examples__item_name f-some-examples__item_name"><a href="education_detail.html">Travel Writer 1.0.</a></div>
-            <div class="b-some-examples__item_info_level b-some-examples__item_double_info f-some-examples__item_double_info">
-              <div class="b-right">Duration: 3 hours</div>
-              <div class="b-remaining">On: March 26, 2016</div>
-            </div>
-            <div class="b-some-examples__item_info_level b-some-examples__item_description f-some-examples__item_description">
-              Kamu ingin bisa ngetrip gratis ke mana saja? Belajar dari tiga mentor di Travel Writer 1.0. berikut. Ada Amalla Vesta dari SwankyTraveler dan LiburanLokal, Marischka Prudence dan Satya Winnie yang akan memberimu tips menjadi travel writer yang laris diundang ngetrip gratis.
-            </div>
-          </div>
-          <div class="b-some-examples__item_action">
-            <div class="b-right">
-              <a href="education_detail.html" class="b-btn f-btn b-btn-sm f-btn-sm b-btn-default f-primary-b">DAFTAR KELAS</a>
-            </div>
-            <div class="b-remaining b-some-examples__item_total f-some-examples__item_total">
-                <a href="#"><i class="fa fa-heart"></i></a>
-                <a href="#"><i class="fa fa-share-alt"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4 col-xs-12">
-        <div class="b-some-examples__item f-some-examples__item">
-          <div class="b-some-examples__item_img view view-sixth">
-    <a href="#"><img class="j-data-element" data-animate="fadeInDown" data-retina src="img/homepage/kelas-3.jpg" alt=""/></a>
-    <div class="b-item-hover-action f-center mask">
-        <div class="b-item-hover-action__inner">
-            <div class="b-item-hover-action__inner-btn_group">
-                <a href="education_detail.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-            </div>
-        </div>
-    </div>
-</div>
-          <div class="b-some-examples__item_info">
-            <div class="b-some-examples__item_info_level b-some-examples__item_name f-some-examples__item_name"><a href="education_detail.html">The Good Food Blogger</a></div>
-            <div class="b-some-examples__item_info_level b-some-examples__item_double_info f-some-examples__item_double_info">
-              <div class="b-right">Duration: 3 hours</div>
-              <div class="b-remaining">On: March 26, 2016</div>
-            </div>
-            <div class="b-some-examples__item_info_level b-some-examples__item_description f-some-examples__item_description">
-              Suka kelaparan melihat food blogger mengupload foto-foto makanan, Sisters? Ini saatnya kamu belajar dari pakar fotografi makanan. Ada Stanilaus Hans dari Eat and Treats dan Mullie Marlina dari MyFunFoodDiary yang akan mengajarkan kamu tips foto makanan!
-            </div>
-          </div>
-          <div class="b-some-examples__item_action">
-            <div class="b-right">
-              <a href="education_detail.html" class="b-btn f-btn b-btn-sm f-btn-sm b-btn-default f-primary-b">DAFTAR KELAS</a>
-            </div>
-            <div class="b-remaining b-some-examples__item_total f-some-examples__item_total">
-                <a href="#"><i class="fa fa-heart"></i></a>
-                <a href="#"><i class="fa fa-share-alt"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    </section>
 
-</section>
-<section class="b-bg-block f-bg-block b-bg-block-education">
-  <div class="container f-center">
-    <h1 class="f-primary-b">Let's Care. Let's Inspire</h1>
-    <div class="b-bg-block__desc f-bg-block__desc f-primary">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra leo vel dolor consequat, non vehicula tortor congue. 
-    </div>
-    <a class="b-btn f-btn b-btn-md f-btn-md b-btn-primary f-primary-sb j-data-element" data-animate="shake"> Care for Others</a> 
-    <span class="clearfix visible-xs-block"></span>
-    <a class="b-btn f-btn b-btn-md f-btn-md f-primary-sb j-data-element" data-animate="shake"> Inspire Others</a>
-  </div>
-</section>
-<section class="b-infoblock  ">
-    <div class="container">
+    <section class="b-bg-block f-bg-block b-bg-block-education">
+      <div class="container f-center">
+        <h1 class="f-primary-b">Let's Care. Let's Inspire</h1>
+        <div class="b-bg-block__desc f-bg-block__desc f-primary">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra leo vel dolor consequat, non vehicula tortor congue. 
+        </div>
+        <a class="b-btn f-btn b-btn-md f-btn-md b-btn-primary f-primary-sb j-data-element" data-animate="shake"> Care for Others</a> 
+        <span class="clearfix visible-xs-block"></span>
+        <a class="b-btn f-btn b-btn-md f-btn-md f-primary-sb j-data-element" data-animate="shake"> Inspire Others</a>
+      </div>
+    </section>
+
+    <section class="b-infoblock">
+      <div class="container">
         <h2 class="f-primary-l" style="text-align:center;"><strong class="f-primary-b">Cerita</strong> Sisters</h2>
-          
         <div class="row j-masonry b-col-default-indent">
-            <div class="masonry-gridSizer col-md-4 col-sm-6 col-xs-12"></div>
-            <div class="j-masonry-item col-md-4 col-sm-6 col-xs-12">
-                <div class="b-blog-preview">
-    <div class="b-blog-preview__img view view-sixth">
-    <img data-retina="" src="img/homepage/pengalaman-1.jpg" alt="">
-    <div class="b-item-hover-action f-center mask">
-        <div class="b-item-hover-action__inner">
-            <div class="b-item-hover-action__inner-btn_group">
-                <a href="blog_detail_right_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-            </div>
-        </div>
-    </div>
-</div>
-    <div class="b-blog-preview__content ">
-        <div class="b-blog-preview__content-padding_box">
-            <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
-            <p class="f-blog-preview__content-date f-primary-it">May 24th, 2013</p>
-            <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
-        </div>
-        <div class="b-footer-mini b-alternative-bg">
-            <a class="f-footer-mini__link f-more f-primary-b" href="blog_detail_right_slidebar.html"><i class="fa fa-angle-double-right"></i> Selengkapnya</a>
-            
-        </div>
-    </div>
-</div>
-            </div>
-            <div class="j-masonry-item col-md-4 col-sm-6 col-xs-12">
-                <div class="b-blog-preview">
-    <div class="b-blog-preview__img view view-sixth">
-    <img data-retina="" src="img/homepage/pengalaman-2.jpg" alt="">
-    <div class="b-item-hover-action f-center mask">
-        <div class="b-item-hover-action__inner">
-            <div class="b-item-hover-action__inner-btn_group">
-                <a href="blog_detail_right_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-            </div>
-        </div>
-    </div>
-</div>
-    <div class="b-blog-preview__content ">
-        <div class="b-blog-preview__content-padding_box">
-            <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
-            <p class="f-blog-preview__content-date f-primary-it">May 24th, 2013</p>
-            <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
-        </div>
-        <div class="b-footer-mini b-alternative-bg">
-            <a class="f-footer-mini__link f-more f-primary-b" href="blog_detail_right_slidebar.html"><i class="fa fa-angle-double-right"></i> Selengkapnya</a>
-            
-        </div>
-    </div>
-</div>
-            </div>
-            <!--  -->
-            <div class="j-masonry-item col-md-4 col-sm-6 col-xs-12">
-                <div class="b-blog-preview">
-    <div class="b-blog-preview__img view view-sixth">
-    <img data-retina="" src="img/homepage/pengalaman-4.jpg" alt="">
-    <div class="b-item-hover-action f-center mask">
-        <div class="b-item-hover-action__inner">
-            <div class="b-item-hover-action__inner-btn_group">
-                <a href="blog_detail_right_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-            </div>
-        </div>
-    </div>
-</div>
-    <div class="b-blog-preview__content ">
-        <div class="b-blog-preview__content-padding_box">
-            <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
-            <p class="f-blog-preview__content-date f-primary-it">May 24th, 2013</p>
-            <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
-        </div>
-        <div class="b-footer-mini b-alternative-bg">
-            <a class="f-footer-mini__link f-more f-primary-b" href="blog_detail_right_slidebar.html"><i class="fa fa-angle-double-right"></i> Selengkapnya</a>
-            
-        </div>
-    </div>
-</div>
-            </div>
-            <div class="j-masonry-item col-md-4 col-sm-6 col-xs-12">
-                <div class="b-blog-preview">
-    <div class="b-blog-preview__img view view-sixth">
-    <img data-retina="" src="img/homepage/pengalaman-3.jpg" alt="">
-    <div class="b-item-hover-action f-center mask">
-        <div class="b-item-hover-action__inner">
-            <div class="b-item-hover-action__inner-btn_group">
-                <a href="blog_detail_right_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-            </div>
-        </div>
-    </div>
-</div>
-    <div class="b-blog-preview__content">
-        <div class="b-blog-preview__content-padding_box">
-            <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
-            <p class="f-blog-preview__content-date f-primary-it">May 24th, 2013</p>
-            <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
-        </div>
-        <div class="b-footer-mini b-alternative-bg">
-            <a class="f-footer-mini__link f-more f-primary-b" href="blog_detail_right_slidebar.html"><i class="fa fa-angle-double-right"></i> Selengkapnya</a>
-            
-        </div>
-    </div>
-</div>
-            </div>
-            
-            <div class="j-masonry-item col-md-4 col-sm-6 col-xs-12">
-                <div class="b-blog-preview">
-                  <div class="b-blog-preview__img view view-sixth">
-                    <img data-retina="" src="img/homepage/pengalaman-5.jpg" alt="">
-                      <div class="b-item-hover-action f-center mask">
-                          <div class="b-item-hover-action__inner">
-                              <div class="b-item-hover-action__inner-btn_group">
-                                  <a href="blog_detail_right_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
-                              </div>
-                          </div>
+          <div class="masonry-gridSizer col-md-4 col-sm-6 col-xs-12"></div>
+          <div class="j-masonry-item col-md-4 col-sm-6 col-xs-12">
+            <div class="b-blog-preview">
+              <div class="b-blog-preview__img view view-sixth">
+                <img data-retina="" src="img/homepage/pengalaman-1.jpg" alt="">
+                <div class="b-item-hover-action f-center mask">
+                  <div class="b-item-hover-action__inner">
+                      <div class="b-item-hover-action__inner-btn_group">
+                          <a href="blog_detail_right_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
                       </div>
                   </div>
-                  <div class="b-blog-preview__content ">
-                      <div class="b-blog-preview__content-padding_box">
-                          <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
-                          <p class="f-blog-preview__content-date f-primary-it">May 24th, 2013</p>
-                          <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
-                      </div>
-                      <div class="b-footer-mini b-alternative-bg">
-                          <a class="f-footer-mini__link f-more f-primary-b" href="blog_detail_right_slidebar.html"><i class="fa fa-angle-double-right"></i> Selengkapnya</a>
-                          
-                      </div>
+                </div>
+              </div>
+              <div class="b-blog-preview__content b-diagonal-line-bg-light">
+                  <div class="b-blog-preview__content-padding_box">
+                      <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
+                      <p class="f-blog-preview__content-date f-primary-it">May 24th, 2013</p>
+                      <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
+                  </div>
+                  <div class="b-footer-mini b-alternative-bg">
+                      <a class="f-footer-mini__link f-more f-primary-b" href="blog_detail_right_slidebar.html"><i class="fa fa-angle-double-right"></i> Selengkapnya</a>
                   </div>
               </div>
             </div>
-            <div class="j-masonry-item col-md-4 col-sm-6 col-xs-12">
-                <div class="b-blog-preview">
-    <div class="b-blog-preview__img view view-sixth">
-    <img data-retina="" src="img/homepage/pengalaman-2.jpg" alt="">
-    <div class="b-item-hover-action f-center mask">
-        <div class="b-item-hover-action__inner">
-            <div class="b-item-hover-action__inner-btn_group">
-                <a href="blog_detail_right_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="j-masonry-item col-md-4 col-sm-6 col-xs-12">
+            <div class="b-blog-preview">
+              <div class="b-blog-preview__img view view-sixth">
+                <img data-retina="" src="img/homepage/pengalaman-2.jpg" alt="">
+              <div class="b-item-hover-action f-center mask">
+                <div class="b-item-hover-action__inner">
+                  <div class="b-item-hover-action__inner-btn_group">
+                    <a href="blog_detail_right_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="b-blog-preview__content b-diagonal-line-bg-light">
+              <div class="b-blog-preview__content-padding_box">
+                <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
+                <p class="f-blog-preview__content-date f-primary-it">May 24th, 2013</p>
+                <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
+              </div>
+              <div class="b-footer-mini b-alternative-bg">
+                <a class="f-footer-mini__link f-more f-primary-b" href="blog_detail_right_slidebar.html"><i class="fa fa-angle-double-right"></i> Selengkapnya</a>
             </div>
         </div>
     </div>
-</div>
-    <div class="b-blog-preview__content ">
-        <div class="b-blog-preview__content-padding_box">
-            <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
-            <p class="f-blog-preview__content-date f-primary-it">May 24th, 2013</p>
-            <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
-        </div>
-        <div class="b-footer-mini b-alternative-bg">
-            <a class="f-footer-mini__link f-more f-primary-b" href="blog_detail_right_slidebar.html"><i class="fa fa-angle-double-right"></i> Selengkapnya</a>
-            
-        </div>
-    </div>
-</div>
+                </div>
+                <!--  -->
+                <div class="j-masonry-item col-md-4 col-sm-6 col-xs-12">
+                    <div class="b-blog-preview">
+        <div class="b-blog-preview__img view view-sixth">
+        <img data-retina="" src="img/homepage/pengalaman-4.jpg" alt="">
+        <div class="b-item-hover-action f-center mask">
+            <div class="b-item-hover-action__inner">
+                <div class="b-item-hover-action__inner-btn_group">
+                    <a href="blog_detail_right_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
+                </div>
             </div>
-            
-        </div>
-        <div class="b-default-top-indent">
-            <div class="f-center b-remaining">
-    <div class="b-hr-with-btn">
-        <a class="b-btn b-btn--load f-btn b-btn-sm f-btn-load f-btn-sm f-primary-b"><i class="fa fa-spinner"></i> Load more</a>
-    </div>
-</div>
         </div>
     </div>
-  </section>
+        <div class="b-blog-preview__content b-diagonal-line-bg-light">
+            <div class="b-blog-preview__content-padding_box">
+                <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
+                <p class="f-blog-preview__content-date f-primary-it">May 24th, 2013</p>
+                <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
+            </div>
+            <div class="b-footer-mini b-alternative-bg">
+                <a class="f-footer-mini__link f-more f-primary-b" href="blog_detail_right_slidebar.html"><i class="fa fa-angle-double-right"></i> Selengkapnya</a>
+                
+            </div>
+        </div>
+    </div>
+                </div>
+                <div class="j-masonry-item col-md-4 col-sm-6 col-xs-12">
+                    <div class="b-blog-preview">
+        <div class="b-blog-preview__img view view-sixth">
+        <img data-retina="" src="img/homepage/pengalaman-3.jpg" alt="">
+        <div class="b-item-hover-action f-center mask">
+            <div class="b-item-hover-action__inner">
+                <div class="b-item-hover-action__inner-btn_group">
+                    <a href="blog_detail_right_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="b-blog-preview__content b-diagonal-line-bg-light">
+            <div class="b-blog-preview__content-padding_box">
+                <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
+                <p class="f-blog-preview__content-date f-primary-it">May 24th, 2013</p>
+                <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
+            </div>
+            <div class="b-footer-mini b-alternative-bg">
+                <a class="f-footer-mini__link f-more f-primary-b" href="blog_detail_right_slidebar.html"><i class="fa fa-angle-double-right"></i> Selengkapnya</a>
+                
+            </div>
+        </div>
+    </div>
+                </div>
+                
+                <div class="j-masonry-item col-md-4 col-sm-6 col-xs-12">
+                    <div class="b-blog-preview">
+                      <div class="b-blog-preview__img view view-sixth">
+                        <img data-retina="" src="img/homepage/pengalaman-5.jpg" alt="">
+                          <div class="b-item-hover-action f-center mask">
+                              <div class="b-item-hover-action__inner">
+                                  <div class="b-item-hover-action__inner-btn_group">
+                                      <a href="blog_detail_right_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="b-blog-preview__content ">
+                          <div class="b-blog-preview__content-padding_box">
+                              <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
+                              <p class="f-blog-preview__content-date f-primary-it">May 24th, 2013</p>
+                              <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
+                          </div>
+                          <div class="b-footer-mini b-alternative-bg">
+                              <a class="f-footer-mini__link f-more f-primary-b" href="blog_detail_right_slidebar.html"><i class="fa fa-angle-double-right"></i> Selengkapnya</a>
+                              
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="j-masonry-item col-md-4 col-sm-6 col-xs-12">
+                  <div class="b-blog-preview">
+                    <div class="b-blog-preview__img view view-sixth">
+                      <img data-retina="" src="img/homepage/pengalaman-2.jpg" alt="">
+                    <div class="b-item-hover-action f-center mask">
+                        <div class="b-item-hover-action__inner">
+                            <div class="b-item-hover-action__inner-btn_group">
+                                <a href="blog_detail_right_slidebar.html" class="b-btn f-btn b-btn-light f-btn-light info"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="b-blog-preview__content b-diagonal-line-bg-light">
+                    <div class="b-blog-preview__content-padding_box">
+                      <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
+                      <p class="f-blog-preview__content-date f-primary-it">May 24th, 2013</p>
+                      <p class="b-blog-preview__content-text f-blog-preview__content-text">Suspendisse blandit ligula turpis, ac convallis risus fermentum non. Duis vestibulum quis quam vel accumsan. Nunc a vulputate lectus. Vestibulum eleifend nisl sed massa sagittis vestibulum. Vestibulum pretium blandit tellus, sodales volutpat sapien varius vel. </p>
+                    </div>
+                    <div class="b-footer-mini b-alternative-bg">
+                      <a class="f-footer-mini__link f-more f-primary-b" href="blog_detail_right_slidebar.html"><i class="fa fa-angle-double-right"></i> Selengkapnya</a>
+                            
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="b-default-top-indent">
+              <div class="f-center b-remaining">
+                <div class="b-hr-with-btn">
+                    <a class="b-btn b-btn--load f-btn b-btn-sm f-btn-load f-btn-sm f-primary-b"><i class="fa fa-spinner"></i> Load more</a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
 
   <footer>
   <div class="b-footer-primary">
@@ -952,6 +1036,7 @@
 <script src="js/modules/settings.js"></script>
 <script src="js/modules/maps-google.js"></script>
 <script src="js/modules/color-themes.js"></script>
+<script src="js/modules/carousel-owl.js"></script>
 <!-- End Modules -->
 
 <!-- Audio player -->
@@ -986,6 +1071,7 @@
 <script src="js/loader.js"></script>
 <script src="js/scrollIt/scrollIt.min.js"></script>
 <script src="js/modules/navigation-slide.js"></script>
+<script src="js/jquery.owlcarousel.js"></script>
 
 </body>
 </html>

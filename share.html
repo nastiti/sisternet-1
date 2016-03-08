@@ -35,9 +35,14 @@
   <link type="text/css" rel='stylesheet' href="js/fancybox/jquery.fancybox.css">
   <!-- End Fancybox -->
 
+<!-- Fonts -->
   <link type="text/css" rel='stylesheet' href="fonts/fonts.css">
+  <link type="text/css" rel='stylesheet' href="fonts/interface/stylesheet.css">
+  <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
+  <!-- End Fonts -->
 
   <link type="text/css" data-themecolor="default" rel='stylesheet' href="css/main-default.css">
 
@@ -63,17 +68,17 @@
         </div>
         <div class="b-top-nav-show-slide f-top-nav-show-slide b-right j-top-nav-show-slide"><i class="fa fa-align-justify"></i></div>
         <nav class="b-top-nav f-top-nav b-right j-top-nav">
-            <ul class="b-top-nav__1level_wrap">
+          <ul class="b-top-nav__1level_wrap">
               <li class="b-top-nav__1level f-top-nav__1level is-active-top-nav__1level f-primary-b"><a href="index.html"><i class="fa fa-home b-menu-1level-ico"></i>Home </a>
               </li>
               <li class="b-top-nav__1level f-top-nav__1level f-primary-b">
                   <a href="share.html"><i class="fa fa-folder-open b-menu-1level-ico"></i>Share</a>
               </li>
               <li class="b-top-nav__1level f-top-nav__1level f-primary-b">
-                  <a href="#"><i class="fa fa-picture-o b-menu-1level-ico"></i>Care</a>
+                  <a href="care.html"><i class="fa fa-picture-o b-menu-1level-ico"></i>Care</a>
               </li>
               <li class="b-top-nav__1level f-top-nav__1level f-primary-b">
-                  <a href="#"><i class="fa fa-code b-menu-1level-ico"></i>Inspire </a>
+                  <a href="inspire.html"><i class="fa fa-code b-menu-1level-ico"></i>Inspire </a>
               </li>
               <li class="b-top-nav__1level f-top-nav__1level f-primary-b">
                 <a href="#"><i class="fa fa-code b-menu-1level-ico"></i>Login | Register <span class="b-ico-dropdown"><i class="fa fa-arrow-circle-down"></i></span>
@@ -86,7 +91,7 @@
                   </ul>
                 </div>
               </li>
-            </ul>
+          </ul>
         </nav>
       </div>
     </div>
@@ -169,24 +174,25 @@
     <!-- CERITA SISTERS -->
     <section class="b-infoblock">
       <div class="container">
-        <h2 class="f-primary-l" style="text-align:center; padding-bottom:30px;"><strong class="f-primary-b">Cerita</strong> Sisters</h2>
+        <h2 class="f-secondary-l" style="text-align:center; padding-bottom:30px;"><strong class="f-secondary-b">Cerita</strong> Sisters</h2>
           <!-- SORT -->
         <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="b-sort-panel">
               <div class="b-sort-panel__inner">
                 <form action="#">
                   <div class="b-select b-left">
-                    <select class="j-select" name="productAtPage" id="productAtPage">
-                      <option selected="selected">Sort by popularity</option>
-                      <option>Sort by latest</option>
-                    </select>
+                    <button class="button-sm button-gray-light">Latest </button>
+                    <button class="button-sm button-gray-light">Popular</button>
                   </div>
                 </form>
+                <div class="b-select b-right">
+                  <button class="button-sm button-orange">Post Ceritamu</button>
+                </div>
               </div>
             </div>
         </div>
         <div class="clearfix"></div>
-        <div class="row j-masonry b-col-default-indent">
+        <div class="row j-masonry b-col-default-indent f-secondary-l">
             <div class="masonry-gridSizer col-md-4 col-sm-6 col-xs-12"></div>
             <div class="j-masonry-item col-md-4 col-sm-6 col-xs-12">
               <div class="b-blog-preview">
@@ -200,7 +206,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="b-blog-preview__content ">
+                <div class="b-blog-preview__content b-diagonal-line-bg-light">
                   <div class="b-blog-preview__content-padding_box">
                     <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
                     <p class="f-blog-preview__content-date f-primary-it">May 24th, 2013</p>
@@ -228,7 +234,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="b-blog-preview__content ">
+                <div class="b-blog-preview__content b-diagonal-line-bg-light">
                   <div class="b-blog-preview__content-padding_box">
                       <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
                       <p class="f-blog-preview__content-date f-primary-it">May 24th, 2013</p>
@@ -257,7 +263,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="b-blog-preview__content ">
+                <div class="b-blog-preview__content b-diagonal-line-bg-light">
                   <div class="b-blog-preview__content-padding_box">
                     <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
                     <p class="f-blog-preview__content-date f-primary-it">May 24th, 2013</p>
@@ -285,7 +291,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="b-blog-preview__content">
+                <div class="b-blog-preview__content b-diagonal-line-bg-light">
                   <div class="b-blog-preview__content-padding_box">
                     <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
                     <p class="f-blog-preview__content-date f-primary-it">May 24th, 2013</p>
@@ -314,7 +320,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="b-blog-preview__content ">
+                <div class="b-blog-preview__content b-diagonal-line-bg-light">
                   <div class="b-blog-preview__content-padding_box">
                       <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
                       <p class="f-blog-preview__content-date f-primary-it">May 24th, 2013</p>
@@ -342,7 +348,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="b-blog-preview__content ">
+                <div class="b-blog-preview__content b-diagonal-line-bg-light">
                   <div class="b-blog-preview__content-padding_box">
                         <p class="f-blog-preview__content-title f-primary-b"><a href="blog_detail_right_slidebar.html">Semper at egestas sed, elementum</a></p>
                         <p class="f-blog-preview__content-date f-primary-it">May 24th, 2013</p>

@@ -30,14 +30,14 @@
     width: 13px;
     height: 13px;
     border-radius: 10px;
-    border: 2px solid #e26228;
+    border: 2px solid #ff2a6b;
     background: 0 none;
 }
 
 .tp-bullets.simplebullets.round .bullet.selected,
 .tp-bullets.simplebullets.round .bullet:hover
 {
-    background-color: #e26228;
+    background-color: #ff2a6b;
 }
 
 .b-slider--thumb .tp-bullets.simplebullets.round .bullet{
